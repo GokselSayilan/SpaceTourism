@@ -1,0 +1,196 @@
+
+
+@media (min-width:1000px) {
+    .home {
+        width: 100%;
+        height: 90%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .homeWrapper {
+        padding: 0 165px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        position: absolute;
+        bottom: 130px;
+        width: 100%;
+    }
+    
+    .homeLeft {
+        width: 450px;
+    }
+    
+    .homeLeftTravelTitle {
+        margin-bottom: 24px;
+    }
+    
+    .homeLeftSpaceText {
+        margin-bottom: 24px;
+    
+    }
+    
+    .exploreLink {
+        color: #0B0D17;
+    }
+    
+    .homeRight {
+        width: 275px;
+        height: 275px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .homeRightRound {
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .homeRightRoundText {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 32px;
+
+    }
+    
+    .homeRightHover {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 10%;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:500px) and (max-width:1000px) {
+    .home {
+        width: 100%;
+        height: 90%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .homeWrapper {
+        padding: 100px 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .homeLeft {
+        width: 450px;
+    }
+    
+    .homeLeftTravelTitle {
+        margin-bottom: 24px;
+    }
+    
+    .homeLeftSpaceText {
+        margin-bottom: 24px;
+    
+    }
+    
+    .exploreLink {
+        color: #0B0D17;
+    }
+    
+    .homeRight {
+        width: 240px;
+        height: 240px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .homeRightRound {
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .homeRightRoundText {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 32px;
+    }
+    
+    .homeRightHover {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .home {
+        width: 100%;
+        height: 90%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .homeWrapper {
+        padding: 40px 24px;
+        padding-top: 80px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .homeLeft {
+        width: 330px;
+    }
+    
+    .homeLeftTravelTitle {
+        margin-bottom: 16px;
+    }
+    
+    .homeLeftSpaceText {
+        margin-bottom: 16px;
+    
+    }
+    
+    .exploreLink {
+        color: #0B0D17;
+    }
+    
+    .homeRight {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .homeRightRound {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .homeRightRoundText {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+    
+    .homeRightHover {
+        display: none;
+    }
+}

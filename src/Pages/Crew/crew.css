@@ -1,0 +1,264 @@
+
+
+@media (min-width:1000px)  {
+    .crew {
+        margin-top: 125px;
+    }
+    
+    .crewWrapper {
+        padding: 0 165px;
+        display: flex;
+    }
+    
+    .crewLeft {
+        width: 520px;
+        margin-right: 80px;
+    }
+    
+    .crewLeftMainTitle {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 150px;
+    
+    }
+    
+    .crewLeftMainTitleNumber {
+        opacity: 25%;
+    }
+    
+    .crewLeftMainTitleText {
+        text-transform: uppercase;
+    }
+    
+    .crewInfoMission {
+        margin-bottom: 15px;
+        opacity: 50%;
+        text-transform: uppercase;
+    }
+    
+    .crewInfoFullName {
+        margin-bottom: 27px;
+        text-transform: uppercase;
+    }
+    
+    .crewInfoDesc {
+        margin-bottom: 120px;
+        width: 440px;
+    }
+    
+    .crewLeftStages {
+        display: flex;
+        gap: 24px;
+        position: absolute;
+        bottom: 100px;
+    
+    }
+    
+    .crewLeftStage {
+        background-color: #979797;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .crewLeftStageSelected {
+        background-color: white;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    
+    .crewRight {
+        padding-left: 50px;
+    }
+    
+    .crewRightImg {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+
+@media (min-width:500px) and (max-width:1000px) {
+    .crew {
+        margin-top: 125px;
+    }
+    
+    .crewWrapper {
+        padding: 0 150px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .crewLeft {
+        width: 450px;
+        text-align: center;
+    }
+    
+    .crewLeftMainTitle {
+        position: absolute;
+        left: 40px;
+        top: 140px;
+        display: flex;
+        gap: 16px;
+    }
+    
+    .crewLeftMainTitleNumber {
+        opacity: 25%;
+    }
+    
+    .crewLeftMainTitleText {
+        text-transform: uppercase;
+    }
+
+
+    
+    .crewInfoMission {
+        margin-bottom: 10px;
+        opacity: 50%;
+        text-transform: uppercase;
+        
+    }
+    
+    .crewInfoFullName {
+        margin-bottom: 16px;
+        text-transform: uppercase;
+    }
+    
+    .crewInfoDesc {
+        width: 440px;
+    }
+    
+    .crewLeftStages {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 40px;
+    
+    }
+    
+    .crewLeftStage {
+        background-color: #979797;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .crewLeftStageSelected {
+        background-color: white;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    
+
+    .crewRightImg {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 500px;
+    }
+}
+
+@media (max-width:500px) {
+    .crew {
+        margin-top: 90px;
+    }
+    
+    .crewWrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+    
+    .crewLeft {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .crewLeftMainTitle {
+        position: absolute;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+    }
+    
+    .crewLeftMainTitleNumber {
+        opacity: 25%;
+    }
+    
+    .crewLeftMainTitleText {
+        text-transform: uppercase;
+    }
+
+    .crewInfoMission {
+        margin-bottom: 10px;
+        opacity: 50%;
+        text-transform: uppercase;
+        
+    }
+    
+    .crewInfoFullName {
+        margin-bottom: 16px;
+        text-transform: uppercase;
+    }
+    
+    .crewInfoDesc {
+        width: 330px;
+    }
+    
+    .crewLeftStages {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        order: -1;
+    
+    }
+    
+    .crewLeftStage {
+        background-color: #979797;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .crewLeftStageSelected {
+        background-color: white;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    
+    .crewRight{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .crewRightImg {
+        position: relative;
+        height: 220px;
+        margin-top: 20px;
+    }
+
+    .mobileSep {
+        width: 330px;
+        opacity: 20%;
+    }
+}

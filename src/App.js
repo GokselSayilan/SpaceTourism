@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import SpaceTourism from "./Components/SpaceTourism/SpaceTourism";
+
+//context
+import { ScreenProvider } from "./Context/ScreenContext";
+import { SpaceTourismProvider } from "./Context/SpaceTourism";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <ScreenProvider>
+        <SpaceTourismProvider>
+          <div className="app">
+            <SpaceTourism />
+          </div>
+        </SpaceTourismProvider>
+      </ScreenProvider>
   );
 }
 

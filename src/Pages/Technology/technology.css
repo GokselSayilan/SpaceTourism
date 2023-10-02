@@ -1,0 +1,252 @@
+
+
+@media (min-width:1000px){
+    .technology {
+        margin-top: 125px;
+    }
+    
+    .technologyWrapper {
+       padding-left: 165px;
+       display: flex;
+    }
+    
+    .technologyLeft {
+        width: 630px;
+    }
+    
+    .technologyLeftMainTitle {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .technologyLeftMainTitleNumber {
+        opacity: 25%;
+    }
+    
+    .technologyLeftContent {
+        display: flex;
+        margin-top: 140px;
+    }
+    
+    .technologyLeftContentStage {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 1px solid rgb(101, 101, 101);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        cursor: pointer;
+    }
+    
+    .technologyLeftContentStageInside {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -5;
+    }
+    
+    .technologyLeftContentInfo {
+        margin-left: 80px;
+    }
+    
+    .technologyLeftContentInfoTitle {
+        margin-top: 10px;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+    }
+    
+    .technologyLeftContentInfoDesc{
+        width: 430px;
+    }
+    
+    .technologyRight {
+        position: absolute;
+        padding-top: 40px;
+        right: 0;
+    }
+    
+    .technologyRightImg {
+        width: 515px;
+        height: 530px;
+    }
+    
+    .borderNone {
+        border: none;
+    }
+}
+
+
+@media (min-width:500px) and (max-width:1000px) {
+    .technology {
+        margin-top: 125px;
+    }
+    
+    .technologyWrapper {
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+
+    }
+    
+    .technologyLeft {
+        width: 460px;
+    }
+    
+    .technologyLeftMainTitle {
+        display: flex;
+        gap: 16px;
+        position: absolute;
+        left: 40px;
+        top: 140px;
+    }
+    
+    .technologyLeftMainTitleNumber {
+        opacity: 25%;
+    }
+    
+    .technologyLeftContent {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .technologyLeftContentStages{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-bottom: 45px;
+    }
+    
+    .technologyLeftContentStage {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid rgb(101, 101, 101);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .technologyLeftContentStageInside {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -5;
+    }
+    
+    .technologyLeftContentInfo {
+        text-align: center;
+    }
+    
+    .technologyLeftContentInfoTitle {
+        margin-top: 16px;
+        margin-bottom: 18px;
+        text-transform: uppercase;
+    }
+    
+    .technologyLeftContentInfoDesc{
+        width: 430px;
+    }
+    
+    .technologyRightImg {
+        width: 100%;
+        height: 310px;
+    }
+    
+    .borderNone {
+        border: none;
+    }
+}
+
+@media (max-width:500px) {
+    .technology {
+        margin-top: 120px;
+    }
+    
+    .technologyWrapper {
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+
+    }
+    
+    .technologyLeft {
+        width: 330px;
+    }
+    
+    .technologyLeftMainTitle {
+        display: flex;
+        gap: 16px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 90px;
+    }
+    
+    .technologyLeftMainTitleNumber {
+        opacity: 25%;
+    }
+    
+    .technologyLeftContent {
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .technologyLeftContentStages{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 25px;
+    }
+    
+    .technologyLeftContentStage {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid rgb(101, 101, 101);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .technologyLeftContentStageInside {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -5;
+    }
+    
+    .technologyLeftContentInfo {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .technologyLeftContentInfoTitle {
+        margin-top: 10px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+    }
+    
+    .technologyLeftContentInfoDesc{
+        width: 330px;
+    }
+    
+    .technologyRightImg {
+        width: 100%;
+        height: 170px;
+    }
+    
+    .borderNone {
+        border: none;
+    }
+}

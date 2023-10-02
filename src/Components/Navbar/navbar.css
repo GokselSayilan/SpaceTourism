@@ -1,0 +1,220 @@
+
+
+@media (min-width:1000px) {
+    .navbar {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .navbarWrapper {
+        padding-left: 55px;
+        padding-top: 40px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .navbarLeft {
+        display: flex;
+        align-items: center;
+        width: 570px;
+    }
+    
+    .navbarLeftLogo {
+        width: 48px;
+        height: 48px;
+        margin-right: 40px;
+    }
+    
+    .navbarLeftSep {
+        border: 1px solid rgb(255, 255, 255, .25);
+        position: relative;
+        right: -20px;
+        z-index: 5;
+    }
+    
+    .navbarRight {
+        width: 830px;
+        height: 100px;
+        background-color: rgb(255, 255, 255, .04);
+        backdrop-filter: blur(81px);
+        display: flex;
+        align-items: center;
+        padding-left: 120px;
+        padding-right: 165px;
+    
+    }
+    
+    .navbarRightLinks {
+        display: flex;
+        gap: 48px;
+    }
+    
+    .navbarRightLink {
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .navbarRightLinkRoute{
+        display: flex;
+        gap: 12px;
+        text-decoration: none;
+    }
+    
+    .navText {
+        text-transform: uppercase;
+    }
+    
+    .navbarRightLinkUnderline {
+        width: 100%;
+        background-color: white;
+        height: 3px;
+        position: absolute;
+        bottom: -34px;
+    }
+}
+
+@media (min-width:500px) and (max-width:1000px) {
+    .navbar {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .navbarWrapper {
+        padding-left: 40px;
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .navbarLeftLogo {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .navbarLeftSep {
+        display: none;
+    }
+    
+    .navbarRight {
+        width: 450px;
+        height: 100px;
+        background-color: rgb(255, 255, 255, .04);
+        display: flex;
+        align-items: center;
+        padding: 0 45px;
+    
+    }
+    
+    .navbarRightLinks {
+        display: flex;
+        gap: 35px;
+    }
+    
+    .navbarRightLink {
+        position: relative;
+    }
+    
+    .navbarRightLinkRoute{
+        display: flex;
+        gap: 12px;
+        text-decoration: none;
+    }
+
+    .navTextValue{
+        display: none;
+    }
+    
+    .navText {
+        text-transform: uppercase;
+    }
+    
+    .navbarRightLinkUnderline {
+        width: 100%;
+        background-color: white;
+        height: 3px;
+        position: absolute;
+        bottom: -34px;
+    }
+}
+
+@media (max-width:500px) {
+    .navbar {
+        width: 100%;
+        height: 40px;
+    }
+    
+    .navbarWrapper {
+        padding: 24px;
+        padding-bottom: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .navbarLeftLogo {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .navbarLeftSep {
+        display: none;
+    }
+    
+    .navbarRightLinks {
+        display: none;
+    }
+    
+    .navText {
+        text-transform: uppercase;
+    }
+    
+    .mobileSideBar{
+        width: 250px;
+        height: 100%;
+        backdrop-filter: blur(80px);
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgb(255, 255, 255, .04);
+        z-index: 20;
+        padding-left: 32px;
+        padding-top: 130px;
+    }
+
+    .navbarRightHamburgerMenu {
+        position: absolute;
+        top: 33px;
+        right: 24px;
+        z-index: 30;
+    }
+
+    .mobilelinkRoute{
+        text-decoration: none;
+    }
+
+    .mobileSideBarListItems {
+        list-style: none;
+    }
+
+    .mobileSideBarListItem {
+        display: flex;
+        gap: 12px;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+        position: relative;
+
+    }
+
+    .mobileSideBarListItemSideLine{
+        width: 4px;
+        height: 30px;
+        position: absolute;
+        right: 0;
+        background-color: white;
+    }
+}
+

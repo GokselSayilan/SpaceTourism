@@ -1,0 +1,304 @@
+
+
+@media (min-width:1000px) {
+    .destination {
+        margin-top: 125px;
+    }
+    
+    .destinationWrapper {
+        padding: 0 165px;
+        display: flex;
+    }
+    
+    .destinationLeft {
+        width: 510px;
+        margin-right: 150px;
+    }
+    
+    .destinationLeftTitle {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 100px;
+    }
+    
+    .destinationLeftTitleNumber {
+        opacity: 25%;
+    }
+    
+    .destinationLeftTitleText {
+        text-transform: uppercase;
+    }
+    
+    .destinationLeftImg {
+        width: 445px;
+        height: 445px;
+        margin-left: 65px;
+    }
+    
+    .destinationRight {
+        padding-top: 85px;
+    }
+    
+    .destinationRightStages {
+        display: flex;
+        gap: 35px;
+        margin-bottom: 50px;
+    }
+    
+    .destinationRightStage{
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .destinationRightStageTitle {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    .destinationRightStageTitleUnderline {
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        bottom: -12px;
+    }
+    
+    .destinationRightMainInfoTitle {
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    
+    .destinationRightMainInfoDesc {
+        width: 400px;
+    }
+    
+    .destinationRightSep {
+        margin-top: 55px;
+        margin-bottom: 30px;
+        opacity: 20%;
+    }
+    
+    .destinationRightSubInfo{
+        display: flex;
+        gap: 80px;
+    }
+    
+    .destinationRightSubInfoTitle {
+        text-transform: uppercase;
+    }
+    
+    .destinationRightSubInfoValue {
+        text-transform: uppercase;
+    }
+}
+
+
+@media (min-width:500px) and (max-width:1000px) {
+    .destination {
+        margin-top: 125px;
+    }
+    
+    .destinationWrapper {
+        padding: 0 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .destinationLeft {
+        width: 300px;
+    }
+    
+    .destinationLeftTitle {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        left: 40px;
+        top: 140px;
+    }
+    
+    .destinationLeftTitleNumber {
+        opacity: 25%;
+    }
+    
+    .destinationLeftTitleText {
+        text-transform: uppercase;
+    }
+    
+    .destinationLeftImg {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .destinationRight {
+        margin-top: 50px;
+    }
+    
+    .destinationRightStages {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        margin-bottom: 50px;
+    }
+    
+    .destinationRightStage{
+        position: relative;
+    }
+    
+    .destinationRightStageTitle {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    .destinationRightStageTitleUnderline {
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        bottom: -12px;
+    }
+    
+    .destinationRightMainInfoTitle {
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .destinationRightMainInfoDesc {
+        width: 530px;
+        text-align: center;
+    }
+    
+    .destinationRightSep {
+        margin-top: 35px;
+        margin-bottom: 30px;
+        opacity: 20%;
+    }
+    
+
+    .destinationRightSubInfo{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    .destinationRightSubInfoTitle {
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+    
+    .destinationRightSubInfoValue {
+        text-transform: uppercase;
+        margin-bottom: 6px;
+
+    }
+}
+
+
+@media (max-width:500px) {
+    .destination {
+        margin-top: 60px;
+        overflow: visible;
+    }
+    
+    .destinationWrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+
+    }
+    
+    .destinationLeft {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:30px ;
+    }
+    
+    .destinationLeftTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .destinationLeftTitleNumber {
+        opacity: 25%;
+    }
+    
+    .destinationLeftTitleText {
+        text-transform: uppercase;
+    }
+    
+    .destinationLeftImg {
+        width: 170px;
+        height: 170px;
+    }
+    
+    .destinationRight {
+        margin-top: 30px;
+    }
+    
+    .destinationRightStages {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        margin-bottom: 30px;
+    }
+    
+    .destinationRightStage{
+        position: relative;
+    }
+    
+    .destinationRightStageTitle {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    
+    .destinationRightStageTitleUnderline {
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        bottom: -12px;
+    }
+    
+    .destinationRightMainInfoTitle {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .destinationRightMainInfoDesc {
+        width: 330px;
+        text-align: center;
+    }
+    
+    .destinationRightSep {
+        margin-top: 35px;
+        margin-bottom: 30px;
+        opacity: 20%;
+    }
+    
+
+    .destinationRightSubInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .destinationRightSubInfoTitle {
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+    
+    .destinationRightSubInfoValue {
+        text-transform: uppercase;
+        margin-bottom: 6px;
+
+    }
+}
